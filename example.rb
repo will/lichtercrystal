@@ -40,9 +40,12 @@ end
   case n % 3
     when 0 then
       lights(target: 0, i: n, r: 0, g: 0, b: 0)
+      puts "black"
     when 1 then
       lights(target: 0, i: n, r: 255, g: 0, b: 0)
+      puts "red"
     when 2 then
       lights(target: 0, i: n, r: 255, g: 255, b: 0)
+      puts "yellow"
   end
 end
