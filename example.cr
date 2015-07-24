@@ -1,4 +1,5 @@
 # back and forth
+require "./client"
 1.upto(140) do |n|
   lights(target: 0, i: n, r: 0, g: 0, b: 0)
 end
